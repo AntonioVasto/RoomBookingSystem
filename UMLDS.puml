@@ -1,0 +1,14 @@
+@startuml
+annotation java.lang.SuppressWarnings
+class booking.comp.ia.BookingCompIA
+class booking.comp.ia.Login
+class booking.comp.ia.Room
+class booking.comp.ia.loginform
+class java.util.logging.Level
+class java.util.logging.Logger
+class javax.swing.JFrame
+booking.comp.ia.Login ..> java.util.logging.Level
+booking.comp.ia.Login ..> java.util.logging.Logger
+booking.comp.ia.loginform ..> java.lang.SuppressWarnings
+booking.comp.ia.loginform --|> javax.swing.JFrame
+@enduml
